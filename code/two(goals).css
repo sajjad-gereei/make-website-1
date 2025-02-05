@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    border-bottom: solid 2px rgb(171, 169, 169);
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    font-size: 1.7rem;
+  }
+  
+  @media (max-width: 490px) {
+    .links {
+      flex-wrap: wrap;
+    }
+    a {
+      margin: 1rem;
+    }
+  }
+/* ____________________________________________________________________________ */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .card {
+    margin-top: 20px;
+    width: 200px;
+    height: 280px;
+    background-color: gray;
+    border-radius: 10px;
+    position: relative;
+  }
+
+.imgc{
+    position: absolute;
+    width: 70%;
+  left: 34px;
+  top: 25px;
+  border-radius: 15px;
+}
+.hc{
+    position: absolute;
+    bottom: 100px;
+    left: 75px; 
+}
+.lc{
+    position: absolute;
+  bottom: 30px;
+  left: 75px;
+  background-color: red;
+  color: black;
+  font-size: 1.2rem;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+
+@media (max-width:992px ){
+
+.cards{
+    flex-wrap: wrap;
+}
+.card{
+    margin: 25px;
+}
+}
+
+@media (max-width:494px){
+
+    .lc{
+        position: absolute;
+        left: 60px;
+        bottom: 30px;
+    } 
+}
+
+/* _________________________________________________________________________________________________________ */
+
+.para{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 4rem 7rem;
+    border:solid rgb(171, 169, 169) ;
+    border-radius: 8px;
+}
+
+p{
+    margin: 1rem 15px;
+}
+
+span{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.h1g{
+    margin-top: 2.4rem;
+    margin-left: 1.1rem;
+}
+
